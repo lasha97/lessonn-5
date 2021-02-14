@@ -99,9 +99,12 @@ li{
     height: 570px;
 }
 .info {
+    display: inline-block;
     padding-top: 45px;
     margin-left:45px;
     font-family: "BPG Nino Mtavruli";
+    vertical-align: top;
+   
 }
 
 h1 {
@@ -117,4 +120,15 @@ p{
 .gray {
     color:#808080;
     font-weight: normal;
+}
+
+.map {
+    display: inline-block;
+   margin-left: 116px;
+    margin-top: 45px;
+
+}
+iframe {
+    width: 874px;
+    height: 466px;
 }
